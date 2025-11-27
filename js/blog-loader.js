@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!toc) return;
 
     const blogs = [
-        { title: "Some really nerdy stuff", slug: "example", date: "2024-02-01" },
-        { title: "meow", slug: "meow", date: "2024-02-02" }
+        { title: "The Harvest", slug: "the-harvest", date: "2025-11-20" },
+        { title: "The War Veteran", slug: "the-war-veteran", date: "2025-10-15" }
     ];
 
     const sortedBlogs = blogs.sort((a, b) => new Date(b.date) - new Date(a.date));
